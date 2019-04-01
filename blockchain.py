@@ -3,6 +3,9 @@ import hashlib
 def generatehash(value,prev_hash,txn_id):
 	m = hashlib.sha256(value+prev_hash+txn_id)
 	return m.digest()
+
+def gitadd:
+    print("git verification")
 	
 def getgenesisblock():
 	return Block(1,0,1)
